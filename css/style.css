@@ -11,43 +11,38 @@ h4 {
     padding: 0;
 }
 
-/*h2 {*/
 
-/*    margin: 0 0 10px 0;*/
-
-/*    padding: 0;*/
-
-/*}*/
-h2.date{
-    color:gray;
+h2.date {
+    color: gray;
     font-family: "serif";
-    font-size:15px;
-    margin:10px 0 0 10px;
+    font-size: 15px;
+    margin: 10px 0 0 10px;
 }
-h3.blog-title{
+
+h3.blog-title {
     color: #6495ED;
     font-family: "serif";
     font-size: 20px;
-    margin:20px 0 0 10px;
+    margin: 20px 0 0 10px;
 }
 
-h5.date{
-    color:gray;
-    margin:15px 0 15px 0;
+h5.date {
+    color: gray;
+    margin: 15px 0 15px 10px;
 }
 
 h6.blog-title {
     color: #6495ED;
     font-family: "serif";
-    font-size:15px;
-    margin:20px 0 10px 0;
+    font-size: 15px;
+    margin: 20px 0 10px 10px;
 }
 
 .title {
     text-align: center;
 }
 
- 
+
 
 .blog-title h6 {
     font-size: 15px;
@@ -129,20 +124,17 @@ header {
 }
 
 .article {
-    width: 440px;
-    height: 170px;
-    display:block;
-    float: right;
+    /*margin:0 0 0 0%;*/
+    display: block;
+    float: left;
 }
 
-.article2 {
-    width: 210px;
-    height: 70px;
-    display:block;
-    float: right;
-    /*height:80px;*/
-    /*float: right;*/
-}
+/*.article2 {*/
+    /*width: 210px;*/
+    /*height: 70px;*/
+/*    display: block;*/
+/*    float: left;*/
+/*}*/
 
 
 .left-contents {
@@ -152,15 +144,12 @@ header {
 
 .right-contents {
     width: 300px;
-    /*height: 500px;*/
-    float: right;
+    float: left;
 }
 
 .right-title {
-    /*text-align: left;*/
     font-size: 30px;
     font-weight: lighter;
-    /*float:right;*/
 }
 
 .clearfix:after {
@@ -190,14 +179,11 @@ header {
 .card-contents {
     width: 600px;
     height: 195px;
-    display:block;
-    /*content:"";*/
-    /*display:block;*/
+    display: block;
 }
 
 .card-contetns2 {
     width: 300px;
     height: 100px;
-    display:block;
-
+    display: block;
 }
